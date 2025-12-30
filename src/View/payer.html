@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Page de paiement</title>
+        <link rel="stylesheet" href="/src/css/dashboard.css">
+    </head>
+    <body>
+        <div class="paiementForm">
+            <h2>Effectuer un paiement</h2>
+            <form id="payerForm-container">
+                <input type="text" id="nomDest" placeholder="nom du destinataire...">
+                <input type="text" id="ribDest" placeholder="RIB du destinataire..."> 
+                <input type="number" id="montantPaye" placeholder="montant a payer...">
+                <button id="payerBtn">Payer</button>
+            </form>
+        </div>
+        <script type="module" src="/src/Controller/payer.js"></script>
+    </body>
+</html>
